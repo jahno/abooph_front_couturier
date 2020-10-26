@@ -58,6 +58,11 @@ function OrderList() {
     {
       Header: 'Total',
       accessor: 'total',
+      Cell: (row) => (
+        <span>
+          {row.original.total} FCFA
+        </span>
+      ),
       style: {
         textAlign: 'center'
       }
