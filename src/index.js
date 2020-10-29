@@ -18,7 +18,7 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 
 //Pages
-import Dashboard from './components/pages/dashboard';
+// import Dashboard from './components/pages/dashboard';
 import Login from './components/pages/auth/login';
 import Article from './components/pages/article';
 import Order from 'components/pages/order';
@@ -37,7 +37,7 @@ function Root() {
                         <Route exact path={`/login`} component={Login} />
 
                         {/* private */}
-                        <PrivateRoute exact path={`/`} component={Dashboard} />
+                        {/* <PrivateRoute exact path={`/`} component={Dashboard} /> */}
                         
                         <PrivateRoute path={`/profil`} component={Profile} />
 
@@ -45,7 +45,7 @@ function Root() {
                         
                         <PrivateRoute path={`/commandes`} component={Order} />
 
-                        <Redirect to={`/`} />
+                        <Redirect to={`/commandes`} />
                     </Switch>
                 </ScrollContext>
             </Router>
