@@ -22,7 +22,7 @@ import store from './redux/store';
 import Login from './components/pages/auth/login';
 import Article from './components/pages/article';
 import Order from 'components/pages/order';
-import Profile from './components/pages/profile';
+// import Profile from './components/pages/profile';
 
 import { createBrowserHistory } from 'history';
 const browserHistory = createBrowserHistory();
@@ -39,7 +39,7 @@ function Root() {
                         {/* private */}
                         {/* <PrivateRoute exact path={`/`} component={Dashboard} /> */}
                         
-                        <PrivateRoute path={`/profil`} component={Profile} />
+                        {/* <PrivateRoute path={`/profil`} component={Profile} /> */}
 
                         <PrivateRoute path={`/articles`} component={Article} />
                         

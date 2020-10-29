@@ -15,7 +15,7 @@ export const MENUITEMS = [
     {
         path: '/articles', title: 'Articles', icon: Box, type: 'link', badgeType: 'primary', active: false
     },
-    {
-        path: '/profil', title: 'Mon profil', icon: Settings, type: 'link', badgeType: 'primary', active: false
-    },
+    // {
+    //     path: '/profil', title: 'Mon profil', icon: Settings, type: 'link', badgeType: 'primary', active: false
+    // },
 ]
