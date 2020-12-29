@@ -67,7 +67,7 @@ export default function UpdateArticleForm () {
                                     />
                                 </div>
                             </div>
-                            <div className="form-group mb-3 row">
+                            {/* <div className="form-group mb-3 row">
                                 <label className="col-xl-3 col-sm-4 mb-0"><span>*</span> Prix barré</label>
                                 <div className="col-xl-8 col-sm-7">
                                     <AvField 
@@ -80,7 +80,7 @@ export default function UpdateArticleForm () {
                                         }} 
                                     />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="form-group mb-3 row">
                                 <label className="col-xl-3 col-sm-4 mb-0"><span>*</span> Temps de confection</label>
                                 <div className="col-xl-8 col-sm-7">

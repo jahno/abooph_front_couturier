@@ -8,7 +8,7 @@ export default class AddArticle extends Component {
     render() {
         return (
             <Fragment>
-                <Breadcrumb title="Nouveau article" parent="Articles" parentUrl="articles"/>
+                <Breadcrumb title="Nouvel article" parent="Articles" parentUrl="articles"/>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-sm-12">

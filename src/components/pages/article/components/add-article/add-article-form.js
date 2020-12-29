@@ -58,7 +58,7 @@ export default function AddArticleForm () {
                                     />
                                 </div>
                             </div>
-                            <div className="form-group mb-3 row">
+                            {/* <div className="form-group mb-3 row">
                                 <label className="col-xl-3 col-sm-4 mb-0"><span>*</span> Prix barré</label>
                                 <div className="col-xl-8 col-sm-7">
                                     <AvField 
@@ -71,7 +71,7 @@ export default function AddArticleForm () {
                                         }} 
                                     />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="form-group mb-3 row">
                                 <label className="col-xl-3 col-sm-4 mb-0"><span>*</span> Temps de confection</label>
                                 <div className="col-xl-8 col-sm-7">
@@ -81,7 +81,7 @@ export default function AddArticleForm () {
                                         type="number" 
                                         helpMessage="Le temps de confection est en jour"
                                         validate={{
-                                            pattern: {value: '^[0-9]+$', errorMessage: "temps invalide"},
+                                            pattern: {value: '^[0-7]{1}$', errorMessage: "temps invalide"},
                                             required: {value: true, errorMessage: 'Svp veuillez renseigner le temps de confection'},
                                         }} 
                                     />
